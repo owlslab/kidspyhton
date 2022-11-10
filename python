@@ -1,0 +1,85 @@
+#maths home wrok program
+problem = input("enter a  math problem to solve 'or'enter 'q' to quit\n")
+while (problem != "q"):
+  print("The answer to your math problem ", problem, "is :", eval(problem)  )
+  problem = input("enter another math problem to solve 'or'enter 'q' to quit\n")
+
+#name spiral
+import turtle
+t=turtle.Pen()
+turtle.bgcolor("lightblue")
+colors = ["red", "yellow", "black", "blue"]
+t.speed(0)
+sides=int(turtle.numinput("number of sides", "choose between 1-4)"))
+name=turtle.textinput("sister's name", "what is your sisters name")
+for x in range(100):
+  t.pencolor(colors[x%sides])
+  t.penup()
+  t.forward(x*4)
+  t.pendown()
+  t.write(name, font = ("Arial", int((x+4)/4), "bold"))
+  t.left(92)
+#names in loop
+name = input('what is your name')
+for x in range(10):
+  print(name, end = " is the best !!! ")
+
+#greet customer
+print("hello sir/madam, how are you ?\n,what do you want sir ?\n")
+#customer asking for sim cards
+print("we have TPG $10 100gb ")
+print("how many simcards you need")
+simcard = eval(input("how many you need ? "))
+package = eval(input("please select the package $10 or $18 or $25 "))
+bill = simcard * package 
+print("the total amount to be paid for", simcard, "simcrads is, $", bill)
+#respect MOM
+my_name = "iqbal abdul aseem, son of iqbal and jamruth begam\n"
+my_age = "i am 40 years"
+your_name = input("what is your name ?\n")
+your_age = input("how old are you ?\n")
+your_fathers_name = input("what is your fathers name ?\n")
+your_mothers_name = input("what is your mothers name ?\n")
+print("hi my name is, ", my_name, "and ", my_age)
+print("see at my age, till this date i have never spoken against my mother or my dad. never raised my voice on my mother")
+print("At your age", your_name, "you are only", your_age, "you have to obey your parents and listen to your mom and should never raise your voice against your mom", your_mothers_name, "!", "and respect her", "and listen to your father ", your_fathers_name, "!!!")
+#sides
+import turtle
+sides = eval(input('enter your choice of sides between 2-5\n'))
+colors=['red', 'purple', 'blue', 'yellow', 'black']
+t=turtle.Pen()
+turtle.bgcolor('lightgreen')
+t.speed(0)
+print("This is my first ever coding experience")
+for x in range (36):
+  t.pencolor(colors[x%sides])
+  t.circle(x)
+  t.left(60)
+  t.width(x)
+print('end of sides coding')
+#square 
+import turtle
+colors=['red', 'purple', 'blue', 'yellow']
+t=turtle.Pen()
+turtle.bgcolor('lightgreen')
+t.speed(0)
+print("This is my first ever coding experience")
+for x in range (36):
+  t.pencolor(colors[x%4])
+  t.circle(2*x)
+  t.left(60)
+
+#myname.py
+name = input("what is your name ?.\n")
+print("hi", name)
+#NiceHexSpiral.py
+import turtle   
+colors=['red', 'purple', 'blue',
+        'green', 'yellow', 'orange']
+t=turtle.Pen()
+turtle.bgcolor('black')
+for x in range(360):
+    t.pencolor(colors[x%6])
+    t.width(x/100+1)
+    t.forward(x)        
+    t.left(59)
