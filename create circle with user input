@@ -1,0 +1,8 @@
+#circles get inpput as an integer from user and draw circle, 360/user-input using loop with code
+import turtle
+t = turtle.Pen()
+t.speed(0)
+how_many_sides = int(turtle.numinput("enter sides", "how many sides", 10))
+for x in range(how_many_sides):
+  t.circle(100)
+  t.left(360/how_many_sides)
