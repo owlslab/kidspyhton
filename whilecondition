@@ -1,0 +1,10 @@
+  #ask to enter name and print in loop for x many times
+name = input("Enter your name, just enter to quit\n")
+#use while to quit
+while name != (""):
+#print x number of times
+  for x in range(10):
+    print (name, end = " ")
+  print()
+  name = input("enter another name, or hit enter to quit\n")
+print ("thank you very much")  
