@@ -1,0 +1,14 @@
+#square
+import turtle
+t=turtle.Pen()
+t.width(10)
+t.speed(0)
+t.forward(100)
+t.left(90)
+t.forward(100)
+t.left(90)
+t.forward(100)
+t.left(90)
+t.forward(100)
+t.left(90)
+print("end of square")
