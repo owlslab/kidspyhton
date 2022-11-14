@@ -1,0 +1,13 @@
+#reversetriangle
+import turtle
+t=turtle.Pen()
+t.width(10)
+t.speed(0)
+t.left(120)
+t.backward(100)
+t.left(120)
+t.backward(100)
+t.left(120)
+t.backward(100)
+print("-----------------------------------------------------------")
+print("end of reverse triangle")
