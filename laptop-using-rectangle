@@ -1,0 +1,27 @@
+#creating a laptop using rectangle
+import turtle
+t=turtle.Pen()
+t.width(10)
+t.pencolor("red")
+t.forward(100) # Forward turtle by l unit
+t.left(90) # Turn turtle by 90 degree
+     
+  # drawing second side
+t.pencolor("blue")
+t.forward(50) # Forward turtle by w units
+t.left(90) # Turn turtle by 90 degree
+t.pencolor("purple")   
+t.forward(100) # Forward turtle by l unit
+t.left(90) # Turn turtle by 90 degree
+     
+  # drawing fourth side
+t.pencolor("yellow")
+t.forward(50) # Forward turtle by w units
+t.left(90) # Turn turtle by 90 degree
+  
+t.left(120)
+t.backward(50)
+t.left(60)
+t.backward(100)
+t.left(120)
+t.backward(50)
