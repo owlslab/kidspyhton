@@ -1,0 +1,293 @@
+#reversetriangle
+import turtle
+t=turtle.Pen()
+t.width(10)
+t.speed(0)
+t.left(120)
+t.backward(100)
+t.left(120)
+t.backward(100)
+t.left(120)
+t.backward(100)
+print("-----------------------------------------------------------")
+print("end of reverse triangle")
+#triangle
+import turtle
+t=turtle.Pen()
+t.width(10)
+t.speed(0)
+t.forward(100)
+t.left(120)
+t.forward(100)
+t.left(120)
+t.forward(100)
+t.left(120)
+print("-----------------------------------------------------------")
+print("end of triangle")
+#ask to enter name and print in loop for x many times
+name = input("Enter your name, just enter to quit\n")
+#use while to quit
+while name != (""):
+#print x number of times
+  for x in range(10):
+    print (name, end = " ")
+  print()
+  name = input("enter another name, or hit enter to quit\n")
+print ("thank you very much")  
+  
+import turtle
+t=turtle.Pen()
+t.width(10)
+for x in range(100):
+  t.pencolor("red")
+  t.forward(100) # Forward turtle by l unit
+  t.left(90) # Turn turtle by 90 degree
+     
+  # drawing second side
+  t.pencolor("blue")
+  t.forward(50) # Forward turtle by w units
+  t.left(90) # Turn turtle by 90 degree
+  t.pencolor("purple")   
+  t.forward(100) # Forward turtle by l unit
+  t.left(90) # Turn turtle by 90 degree
+     
+  # drawing fourth side
+  t.pencolor("yellow")
+  t.forward(50) # Forward turtle by w units
+  t.left(90) # Turn turtle by 90 degree
+  
+  t.left(120)
+  t.backward(50)
+  t.left(60)
+  t.backward(100)
+  t.left(120)
+  t.backward(50)
+
+import turtle
+t=turtle.Turtle()
+ 
+l = int(input("Enter the length of the Rectangle: "))
+w = int(input("Enter the width of the Rectangle: "))
+for x in range(10):
+# drawing first side
+  t.width(5)
+  t.forward(l) # Forward turtle by l units
+  t.left(90) # Turn turtle by 90 degree
+   
+  # drawing second side
+  t.forward(w) # Forward turtle by w units
+  t.left(90) # Turn turtle by 90 degree
+   
+  # drawing third side
+  t.forward(l) # Forward turtle by l units
+  t.left(90) # Turn turtle by 90 degree
+ 
+# drawing fourth side
+t.forward(w) # Forward turtle by w units
+t.left(90) # Turn turtle by 90 degree
+#circles get inpput as an integer from user and draw circle, 360/user-input using loop with code, with bgcolor, with different sizes of circle
+import turtle
+t = turtle.Pen()
+t.speed(0)
+turtle.bgcolor("pink")
+how_many_sides = int(turtle.numinput("enter sides", "how many sides", 10))
+for x in range(how_many_sides):
+  t.pencolor("red")
+  t.circle(100)
+  t.width(3)
+  t.pencolor("blue")
+  t.circle(50)
+  t.width(5)
+  t.pencolor("black")
+  t.circle(25)
+  t.width(7)
+  t.left(360/how_many_sides)
+  
+#circles get inpput as an integer from user and draw circle, 360/user-input using loop with code
+import turtle
+t = turtle.Pen()
+t.speed(0)
+how_many_sides = int(turtle.numinput("enter sides", "how many sides", 10))
+for x in range(how_many_sides):
+  t.circle(100)
+  t.left(360/how_many_sides)
+
+#steps
+import turtle
+t=turtle.Pen()
+for x in range(20):
+  t.width(5)
+  t.backward(10)
+  t.right(-90)
+  t.backward(10)
+  t.right(-90)
+  t.forward(10)
+  t.right(-90)
+  t.forward(10)
+  t.right(-90)
+
+#steps
+import turtle
+t=turtle.Pen()
+for x in range(20):
+  t.width(5)
+  t.forward(10)
+  t.left(90)
+  t.forward(10)
+  t.left(90)
+  t.backward(10)
+  t.left(90)
+  t.backward(10)
+  t.left(90)
+
+#square
+import turtle
+t=turtle.Pen()
+t.forward(100)
+t.left(120)
+t.forward(100)
+t.left(120)
+t.forward(100)
+t.left(120)
+import turtle
+t=turtle.Pen()
+t.left(120)
+t.backward(100)
+t.left(120)
+t.backward(100)
+t.left(120)
+t.backward(100)
+#circle
+import turtle
+t=turtle.Pen()
+t.circle(100)
+t.forward(100)
+#squayre
+import turtle
+t=turtle.Pen()
+for x in range(4):
+  t.forward(100)
+  t.left(90)
+#rectangle
+import turtle
+t=turtle.Pen()
+for x in range(4):
+  t.forward(100*x)
+  t.left(90)
+import turtle
+t=turtle.Turtle()
+ 
+l = int(input("Enter the length of the Rectangle: "))
+w = int(input("Enter the width of the Rectangle: "))
+ 
+# drawing first side
+t.forward(l) # Forward turtle by l units
+t.left(90) # Turn turtle by 90 degree
+ 
+# drawing second side
+t.forward(w) # Forward turtle by w units
+t.left(90) # Turn turtle by 90 degree
+ 
+# drawing third side
+t.forward(l) # Forward turtle by l units
+t.left(90) # Turn turtle by 90 degree
+ 
+# drawing fourth side
+t.forward(w) # Forward turtle by w units
+t.left(90) # Turn turtle by 90 degree
+#circle
+import turtle
+t=turtle.Pen()
+for x in range(1):
+  t.circle(100)
+  print("this is a perfect circle")
+  #triangle
+import turtle
+t=turtle.Pen()
+for x in range(4):
+  t.forward(100)
+  t.left(90)
+#maths home wrok program
+problem = input("enter a  math problem to solve 'or'enter 'q' to quit\n")
+while (problem != "q"):
+  print("The answer to your math problem ", problem, "is :", eval(problem)  )
+  problem = input("enter another math problem to solve 'or'enter 'q' to quit\n")
+
+#name spiral
+import turtle
+t=turtle.Pen()
+turtle.bgcolor("lightblue")
+colors = ["red", "yellow", "black", "blue"]
+t.speed(0)
+sides=int(turtle.numinput("number of sides", "choose between 1-4)"))
+name=turtle.textinput("sister's name", "what is your sisters name")
+for x in range(100):
+  t.pencolor(colors[x%sides])
+  t.penup()
+  t.forward(x*4)
+  t.pendown()
+  t.write(name, font = ("Arial", int((x+4)/4), "bold"))
+  t.left(92)
+#names in loop
+name = input('what is your name')
+for x in range(10):
+  print(name, end = " is the best !!! ")
+
+#greet customer
+print("hello sir/madam, how are you ?\n,what do you want sir ?\n")
+#customer asking for sim cards
+print("we have TPG $10 100gb ")
+print("how many simcards you need")
+simcard = eval(input("how many you need ? "))
+package = eval(input("please select the package $10 or $18 or $25 "))
+bill = simcard * package 
+print("the total amount to be paid for", simcard, "simcrads is, $", bill)
+#respect MOM
+my_name = "iqbal abdul aseem, son of iqbal and jamruth begam\n"
+my_age = "i am 40 years"
+your_name = input("what is your name ?\n")
+your_age = input("how old are you ?\n")
+your_fathers_name = input("what is your fathers name ?\n")
+your_mothers_name = input("what is your mothers name ?\n")
+print("hi my name is, ", my_name, "and ", my_age)
+print("see at my age, till this date i have never spoken against my mother or my dad. never raised my voice on my mother")
+print("At your age", your_name, "you are only", your_age, "you have to obey your parents and listen to your mom and should never raise your voice against your mom", your_mothers_name, "!", "and respect her", "and listen to your father ", your_fathers_name, "!!!")
+#sides
+import turtle
+sides = eval(input('enter your choice of sides between 2-5\n'))
+colors=['red', 'purple', 'blue', 'yellow', 'black']
+t=turtle.Pen()
+turtle.bgcolor('lightgreen')
+t.speed(0)
+print("This is my first ever coding experience")
+for x in range (36):
+  t.pencolor(colors[x%sides])
+  t.circle(x)
+  t.left(60)
+  t.width(x)
+print('end of sides coding')
+#square 
+import turtle
+colors=['red', 'purple', 'blue', 'yellow']
+t=turtle.Pen()
+turtle.bgcolor('lightgreen')
+t.speed(0)
+print("This is my first ever coding experience")
+for x in range (36):
+  t.pencolor(colors[x%4])
+  t.circle(2*x)
+  t.left(60)
+
+#myname.py
+name = input("what is your name ?.\n")
+print("hi", name)
+#NiceHexSpiral.py
+import turtle   
+colors=['red', 'purple', 'blue',
+        'green', 'yellow', 'orange']
+t=turtle.Pen()
+turtle.bgcolor('black')
+for x in range(360):
+    t.pencolor(colors[x%6])
+    t.width(x/100+1)
+    t.forward(x)        
