@@ -1,0 +1,12 @@
+story=[]
+print("write your story : ")
+
+while True:
+  l=input()
+  if l:
+   story.append(l)
+  else:
+   break
+output="\n".join(story)
+print(output)
+print("this is the end of aahils story")
